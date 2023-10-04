@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: var(--color-00);
+  background-color: var(--color-02);
   font-size: 1.1rem;
 }
 
@@ -57,16 +57,10 @@ footer h1 {
   text-align: center;
 }
 
-.container01 {
-  background-color: var(--color-02);
-}
 .container01 p {
   font-size: large;
 }
 
-.container02 {
-  background-color: var(--color-02);
-}
 .container02 p {
   font-size: large;
 }
@@ -75,13 +69,6 @@ footer h1 {
   max-width: 500px;
 }
 
-.container03 {
-  background-color: var(--color-02);
-}
-
-.container04 {
-  background-color: var(--color-02);
-}
 .container04 li {
   line-height: 2rem;
   padding-right: 15px;
