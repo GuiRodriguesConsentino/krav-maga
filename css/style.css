@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-00: #252121;
+  --color-00: #151515;
   --color-01: #ecb51d;
   --color-02: #f7f3f3;
 }
@@ -55,6 +55,28 @@ footer {
 footer h1 {
   color: var(--color-01);
   text-align: center;
+}
+footer .container05 {
+  display: inline;
+}
+footer .container05 button {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+footer .container05 a {
+  text-decoration: none;
+}
+
+nav p {
+  color: var(--color-01);
+  font-weight: bold;
+  line-height: 1rem;
+  font-size: 35px;
+  padding: 0%;
+}
+nav small {
+  font-size: 12px;
+  color: var(--color-02);
 }
 
 .container01 p {

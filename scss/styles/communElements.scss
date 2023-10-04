@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-00: #262425;
+  --color-00: #151515;
   --color-01: #ecb51d;
   --color-02: #f7f3f3;
 }
@@ -57,5 +57,19 @@ footer {
    h1 {
       color: var(--color-01);
       text-align: center;
+   }
+
+   
+   .container05 {
+      display: inline;
+      
+      button {
+         margin-bottom: 20px;
+         margin-right: 20px;
+      }
+      
+      a {
+      text-decoration: none; 
+      }
    }
 }

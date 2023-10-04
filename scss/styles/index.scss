@@ -1,3 +1,18 @@
+nav {
+   p {
+      color: var(--color-01);
+      font-weight: bold;
+      line-height: 1rem;
+      font-size: 35px;
+      padding: 0%;
+   }
+
+   small {
+      font-size: 12px;
+      color: var(--color-02);
+   }
+}
+
 .container01 {
    p {
       font-size: large;
