@@ -3,7 +3,8 @@ nav {
       color: var(--color-01);
       font-weight: bold;
       line-height: 1rem;
-      font-size: 35px;
+      margin-top: 4px;
+      font-size: 25px;
       padding: 0%;
    }
 
@@ -27,5 +28,13 @@ nav {
    iframe {
       width: 100%;
       max-width: 500px;
+   }
+}
+
+@media (max-width: 350px) {
+   nav {
+      p {
+         display: none;
+      }
    }
 }
