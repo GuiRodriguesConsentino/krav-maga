@@ -58,6 +58,7 @@ footer h1 {
 }
 footer button {
   margin-bottom: 10px;
+  width: 200px;
 }
 
 @media (min-width: 768px) {
