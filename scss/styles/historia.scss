@@ -5,3 +5,21 @@
       text-align: left;
    }
 }
+
+@media (min-width: 1024px) {
+   .container04 {
+      display: block;
+
+      img {
+         float: left;
+         margin-right: 20px;
+         width: 600px;
+      }
+      
+      #imgRight {
+      margin-left: 20px;
+      float: right;
+      }
+   }
+   
+}

@@ -32,7 +32,7 @@ nav li {
 
 img {
   width: 100%;
-  max-width: 700px;
+  max-width: 768px;
 }
 
 h1, h2 {
@@ -50,18 +50,32 @@ p {
 
 footer {
   background-color: var(--color-00);
+  text-align: center;
 }
 footer h1 {
   color: var(--color-01);
   text-align: center;
 }
+footer .container05 {
+  display: inline;
+}
 footer .container05 button {
   margin-bottom: 10px;
+  margin-left: 15px;
 }
 footer .container05 a {
   text-decoration: none;
 }
 
+@media (min-width: 1024px) {
+  .container00 {
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+  }
+}
 nav p {
   color: var(--color-01);
   font-weight: bold;
@@ -84,7 +98,6 @@ nav small {
 }
 .container02 iframe {
   width: 100%;
-  max-width: 700px;
 }
 
 @media (max-width: 350px) {
@@ -92,10 +105,50 @@ nav small {
     display: none;
   }
 }
+@media (min-width: 1024px) {
+  nav p {
+    font-size: 40px;
+  }
+  nav small {
+    font-size: 17px;
+  }
+  #textAdress h1 {
+    font-size: 60px;
+  }
+  #textAdress p {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .container03 {
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    display: block;
+  }
+  .container03 h1 {
+    text-align: center;
+  }
+}
 .container04 li {
   line-height: 2rem;
   padding-right: 15px;
   text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .container04 {
+    display: block;
+  }
+  .container04 img {
+    float: left;
+    margin-right: 20px;
+    width: 600px;
+  }
+  .container04 #imgRight {
+    margin-left: 20px;
+    float: right;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

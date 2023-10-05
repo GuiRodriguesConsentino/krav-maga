@@ -34,7 +34,7 @@ nav {
 
 img {
    width: 100%;
-   max-width: 700px;
+   max-width: 768px;
 }
 
 h1, h2 {  
@@ -52,6 +52,7 @@ p {
 
 footer {
    background-color: var(--color-00);
+   text-align: center;
 
    h1 {
       color: var(--color-01);
@@ -59,12 +60,24 @@ footer {
    }
 
    .container05 {
+      display: inline;
       button {
       margin-bottom: 10px;
+      margin-left: 15px;
       }
 
       a {
          text-decoration: none; 
       }
+   }
+}
+
+@media (min-width: 1024px) {
+   .container00 {
+      justify-items: center;
+      align-items: center;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 50vw 50vw;     
    }
 }

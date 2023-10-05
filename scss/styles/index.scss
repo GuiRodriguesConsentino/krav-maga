@@ -27,7 +27,6 @@ nav {
 
    iframe {
       width: 100%;
-      max-width: 700px;
    }
 }
 
@@ -35,6 +34,29 @@ nav {
    nav {
       p {
          display: none;
+      }
+   }
+}
+
+@media (min-width: 1024px) {
+   nav {
+      p {
+         font-size: 40px;
+      }
+
+      small {
+         font-size: 17px;
+      }
+   }
+
+   #textAdress {
+      h1 {
+         font-size: 60px;
+      }
+
+      p {
+         font-size: 30px;
+         
       }
    }
 }
