@@ -56,17 +56,19 @@ footer h1 {
   color: var(--color-01);
   text-align: center;
 }
-footer .container05 {
-  display: inline;
-}
-footer .container05 button {
-  margin-bottom: 10px;
-  margin-left: 15px;
-}
-footer .container05 a {
-  text-decoration: none;
-}
 
+@media (min-width: 768px) {
+  footer .container05 {
+    display: inline;
+  }
+  footer .container05 button {
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  footer .container05 a {
+    text-decoration: none;
+  }
+}
 @media (min-width: 1024px) {
   .container00 {
     justify-items: center;

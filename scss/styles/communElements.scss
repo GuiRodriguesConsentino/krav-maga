@@ -58,16 +58,22 @@ footer {
       color: var(--color-01);
       text-align: center;
    }
+   
+}
 
-   .container05 {
-      display: inline;
-      button {
-      margin-bottom: 10px;
-      margin-left: 15px;
-      }
+@media (min-width: 768px) {
+      footer {
+         .container05 {
+         display: inline;
+         
+         button {
+         margin-bottom: 10px;
+         margin-left: 15px;
+         }
 
-      a {
-         text-decoration: none; 
+         a {
+            text-decoration: none; 
+         }
       }
    }
 }
