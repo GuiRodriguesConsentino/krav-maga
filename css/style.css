@@ -56,6 +56,9 @@ footer h1 {
   color: var(--color-01);
   text-align: center;
 }
+footer button {
+  margin-bottom: 10px;
+}
 
 @media (min-width: 768px) {
   footer .container05 {
@@ -75,7 +78,7 @@ footer h1 {
     align-items: center;
     text-align: left;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
   }
 }
 nav p {
@@ -115,10 +118,14 @@ nav small {
     font-size: 17px;
   }
   #textAdress h1 {
-    font-size: 60px;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
   }
   #textAdress p {
     font-size: 30px;
+    margin: 0%;
+    padding: 0%;
   }
 }
 @media (min-width: 1024px) {
