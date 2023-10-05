@@ -60,18 +60,8 @@ footer {
    }
    
    button {
-      background-color: rgb(35, 35, 35);
-      font-weight: 500;
-      color: white;
-      padding: 10px 8px;
-      border: 0px;
-      border-radius: 8px;
-      margin-bottom: 13px;
+      margin-bottom: 10px;
       width: 200px;
-
-      &:hover {
-         background-color: rgb(55, 55, 55);
-      }
    }
 }
 
