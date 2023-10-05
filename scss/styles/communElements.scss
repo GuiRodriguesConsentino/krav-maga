@@ -20,6 +20,7 @@ nav {
    
    img {
       width: 70px;
+      border-radius: 100%;
    }
 
    li {
@@ -37,18 +38,16 @@ img {
 }
 
 h1, h2 {  
-   padding-top: 10px;
+   padding: 15px;
    text-align: left;
    font-size: 30px;
-   padding-left: 15px;
    color: var(--color-01);
 }
 
 p {
-  padding: 15px;
-  text-align: left;
-  margin-bottom: 0px;
-  line-height: 2rem;
+   padding: 0px 15px;
+   text-align: left;
+   line-height: 2rem;
 }
 
 footer {
@@ -59,17 +58,14 @@ footer {
       text-align: center;
    }
 
-   
    .container05 {
-      display: inline;
-      
       button {
-         margin-bottom: 20px;
-         margin-right: 20px;
-      }
-      
-      a {
+      margin-bottom: 13px;
+      width: 200px;
+   }
+
+   a {
       text-decoration: none; 
-      }
+   }
    }
 }
