@@ -4,6 +4,10 @@
       padding-right: 15px;
       text-align: left;
    }
+
+   .imgImi {
+      display: none;
+      }
 }
 
 @media (min-width: 1024px) {
@@ -16,9 +20,15 @@
          width: 600px;
       }
       
-      #imgRight {
+      .imgImi {
+      display: block;
       margin-left: 20px;
+      margin-right: 0%;
       float: right;
+      }
+
+      .textWhyPractice {
+         display: none;
       }
    }
    

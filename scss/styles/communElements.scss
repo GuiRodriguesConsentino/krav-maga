@@ -89,13 +89,3 @@ footer {
       }
    }
 }
-
-@media (min-width: 1024px) {
-   .container00 {
-      justify-items: center;
-      align-items: center;
-      text-align: left;
-      display: grid;
-      grid-template-columns: 50% 50%;     
-   }
-}
