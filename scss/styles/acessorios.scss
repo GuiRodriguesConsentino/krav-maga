@@ -1,0 +1,37 @@
+.container05 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+
+   .card {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+      margin: 15px;
+      width: 20rem;
+      height: 30rem;
+   }
+
+   img {
+      height: 300px;
+   }
+
+   .card-body {
+      padding-top: 0%;
+
+      a {
+         &:hover {
+         scale: 1.1;
+      }
+      }
+   }
+
+   h2 {
+      text-align: center;
+   }
+
+   a {
+      font-weight: bold;
+      color: var(--color-01);
+   }
+}

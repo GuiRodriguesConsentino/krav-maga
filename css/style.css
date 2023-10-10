@@ -69,14 +69,14 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  footer .container05 {
+  footer .container06 {
     display: inline;
   }
-  footer .container05 button {
+  footer .container06 button {
     margin-bottom: 15px;
     margin-left: 15px;
   }
-  footer .container05 a {
+  footer .container06 a {
     text-decoration: none;
   }
 }
@@ -211,6 +211,35 @@ nav small {
   .container04 .textWhyPractice {
     display: none;
   }
+}
+.container05 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container05 .card {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+  margin: 15px;
+  width: 20rem;
+  height: 30rem;
+}
+.container05 img {
+  height: 300px;
+}
+.container05 .card-body {
+  padding-top: 0%;
+}
+.container05 .card-body a:hover {
+  scale: 1.1;
+}
+.container05 h2 {
+  text-align: center;
+}
+.container05 a {
+  font-weight: bold;
+  color: var(--color-01);
 }
 
 /*# sourceMappingURL=style.css.map */
