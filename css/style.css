@@ -152,10 +152,10 @@ footer p{
 .container07 .card-body a:hover{
     scale:1.1
 }
-.container07 h2{
-    padding: 5px;
+.container07 h2, h3 {
+    padding: 0px 15px;
     margin-top: 10px;
-    text-align:center
+    text-align:left
 }
 .container07 a{
     font-weight:bold;
@@ -190,6 +190,11 @@ footer p{
         text-decoration:none
     }
 
+    .container07 h2, h3 {
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
     .container07 p {
         margin: auto;
         text-align: center;
