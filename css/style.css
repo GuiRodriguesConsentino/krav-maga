@@ -157,11 +157,6 @@ footer p{
     margin-top: 10px;
     text-align:center
 }
-.container07 p {
-    margin: auto;
-    text-align:center;
-    width: 80%;
-}
 .container07 a{
     font-weight:bold;
     color:var(--color-01);
@@ -193,6 +188,12 @@ footer p{
     }
     footer .container06 a{
         text-decoration:none
+    }
+
+    .container07 p {
+        margin: auto;
+        text-align: center;
+        width: 80%;
     }
 }
 @media(min-width: 1024px){
