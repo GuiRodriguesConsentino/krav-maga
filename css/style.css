@@ -8,6 +8,7 @@
     --color-01: #ecb51d;
     --color-02: #f7f3f3
 }
+
 body{
     background-color:var(--color-02);
     font-size:1.1rem
@@ -41,7 +42,8 @@ img, video{
     width:100%;
     max-width:768px
 }
-h1,h2{
+
+h1, h2{
     padding:15px;
     text-align:left;
     font-size:30px;
@@ -52,6 +54,7 @@ p{
     text-align:left;
     line-height:2rem
 }
+
 footer{
     background-color:var(--color-00);
     text-align:center
@@ -72,6 +75,64 @@ footer p{
     padding-bottom:10px
 }
 
+.modal{
+    z-index:1;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.modal-content{
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 16px 24px;    
+    width: 300px;
+    border-radius: 0.5rem;
+}
+.modal-content h1{
+    padding: 0px;
+    text-align: center;
+}
+.modal-content h3{
+    padding: 0px;
+    text-align: center;
+}
+.modal-content > p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.modal-content strong {
+    font-size: 2rem;
+}
+.close-button{
+   float: right;
+   width: 24px;
+   line-height: 24px;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 0.25rem;
+   background-color: lightgray;
+}
+.close-button:hover{
+    background-color: darkgray;
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);    
+}
 
 .container01 p{
     font-size:large
@@ -161,10 +222,11 @@ footer p{
 .container07 .card-body a:hover{
     scale:1.1
 }
-.container07 h1, h2, h3 {
+
+.container07 > h1, h2, h3 {
+    text-align: left;
     padding: 0px 0px 0px 15px;
     margin: 10px 0px 0px 0px;
-    text-align:left
 }
 
 .container07 h4 {
@@ -173,13 +235,10 @@ footer p{
     font-size: 1.2rem;
     text-align: left;
 }
-.container07 h4 > a {
-    margin: 0px;
-}
 .container07 a{
     font-weight:bold;
     color:var(--color-01);
-    margin: 10px;
+    margin: 10px 0px;
 }
 .container07 .btn{
     width: 200px;
@@ -217,7 +276,7 @@ footer p{
         text-decoration:none
     }
 
-    .container07 h2, h3 {
+    .container07 > h1, h2, h3 {
         padding: 10px;
         margin: auto;
         text-align: center;
@@ -231,6 +290,7 @@ footer p{
         width: 80%;
     }
 }
+
 @media(min-width: 1024px){
     nav p{
         font-size:40px
@@ -264,7 +324,7 @@ footer p{
         display:grid;
         grid-template-columns:50% 50%
     }
-    #textAdress h1{
+    #textAdress > h1{
         font-size:50px;
         margin:0%;
         padding:0%
